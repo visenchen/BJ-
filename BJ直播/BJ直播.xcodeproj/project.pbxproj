@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66C124DB1DF8298100BA0092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C124DA1DF8298100BA0092 /* Images.xcassets */; };
+		66C124DD1DF82ED100BA0092 /* classes in Resources */ = {isa = PBXBuildFile; fileRef = 66C124DC1DF82ED100BA0092 /* classes */; };
 		66CD36021DF81E4300922810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD36011DF81E4300922810 /* AppDelegate.swift */; };
-		66CD36041DF81E4300922810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD36031DF81E4300922810 /* ViewController.swift */; };
 		66CD36071DF81E4300922810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CD36051DF81E4300922810 /* Main.storyboard */; };
 		66CD36091DF81E4300922810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CD36081DF81E4300922810 /* Assets.xcassets */; };
 		66CD360C1DF81E4300922810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CD360A1DF81E4300922810 /* LaunchScreen.storyboard */; };
@@ -35,10 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		66C124DA1DF8298100BA0092 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66C124DC1DF82ED100BA0092 /* classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = classes; sourceTree = SOURCE_ROOT; };
 		66CD35FE1DF81E4300922810 /* BJ直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BJ直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CD36011DF81E4300922810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66CD36031DF81E4300922810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66CD36061DF81E4300922810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66CD36081DF81E4300922810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CD360B1DF81E4300922810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,13 +97,12 @@
 		66CD36001DF81E4300922810 /* BJ直播 */ = {
 			isa = PBXGroup;
 			children = (
+				66C124DC1DF82ED100BA0092 /* classes */,
 				66CD36011DF81E4300922810 /* AppDelegate.swift */,
-				66CD36031DF81E4300922810 /* ViewController.swift */,
 				66CD36051DF81E4300922810 /* Main.storyboard */,
 				66CD36081DF81E4300922810 /* Assets.xcassets */,
 				66CD360A1DF81E4300922810 /* LaunchScreen.storyboard */,
 				66CD360D1DF81E4300922810 /* Info.plist */,
-				66C124DA1DF8298100BA0092 /* Images.xcassets */,
 			);
 			path = "BJ直播";
 			sourceTree = "<group>";
@@ -236,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CD360C1DF81E4300922810 /* LaunchScreen.storyboard in Resources */,
-				66C124DB1DF8298100BA0092 /* Images.xcassets in Resources */,
+				66C124DD1DF82ED100BA0092 /* classes in Resources */,
 				66CD36091DF81E4300922810 /* Assets.xcassets in Resources */,
 				66CD36071DF81E4300922810 /* Main.storyboard in Resources */,
 			);
@@ -263,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CD36041DF81E4300922810 /* ViewController.swift in Sources */,
 				66CD36021DF81E4300922810 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
