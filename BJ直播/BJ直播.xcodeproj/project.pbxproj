@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66C124DB1DF8298100BA0092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C124DA1DF8298100BA0092 /* Images.xcassets */; };
 		66CD36021DF81E4300922810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD36011DF81E4300922810 /* AppDelegate.swift */; };
 		66CD36041DF81E4300922810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD36031DF81E4300922810 /* ViewController.swift */; };
 		66CD36071DF81E4300922810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CD36051DF81E4300922810 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66C124DA1DF8298100BA0092 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66CD35FE1DF81E4300922810 /* BJ直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BJ直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CD36011DF81E4300922810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CD36031DF81E4300922810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				66CD36081DF81E4300922810 /* Assets.xcassets */,
 				66CD360A1DF81E4300922810 /* LaunchScreen.storyboard */,
 				66CD360D1DF81E4300922810 /* Info.plist */,
+				66C124DA1DF8298100BA0092 /* Images.xcassets */,
 			);
 			path = "BJ直播";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CD360C1DF81E4300922810 /* LaunchScreen.storyboard in Resources */,
+				66C124DB1DF8298100BA0092 /* Images.xcassets in Resources */,
 				66CD36091DF81E4300922810 /* Assets.xcassets in Resources */,
 				66CD36071DF81E4300922810 /* Main.storyboard in Resources */,
 			);
@@ -412,11 +416,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "BJ直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "visen.BJ--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,11 +433,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "BJ直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "visen.BJ--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +519,7 @@
 				66CD36281DF81E4400922810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66CD36291DF81E4400922810 /* Build configuration list for PBXNativeTarget "BJ直播Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +528,7 @@
 				66CD362B1DF81E4400922810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66CD362C1DF81E4400922810 /* Build configuration list for PBXNativeTarget "BJ直播UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +537,7 @@
 				66CD362E1DF81E4400922810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
